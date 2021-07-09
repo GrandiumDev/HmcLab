@@ -1,5 +1,0 @@
-checkForUpdates: true
-sitPermissionDefault: true
-sitDown: '&b> &fВы сели.'
-sitFail: '&c[!] &fВы не можете сесть в полёте!'
-sitUp: '&b[!] Вы больше не седите.'

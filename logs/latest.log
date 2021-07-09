@@ -1,22 +1,22 @@
-[08Jul2021 18:50:41.819] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.1.0, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge]
-[08Jul2021 18:50:41.824] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 1.8.0_292 by Private Build
-[08Jul2021 18:50:42.312] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[08Jul2021 18:50:42.399] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/root/HmcLab/libraries/org/spongepowered/mixin/0.8.2/mixin-0.8.2.jar Service=ModLauncher Env=SERVER
-[08Jul2021 18:50:46.029] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, .]
-[08Jul2021 18:50:46.744] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/layers/CapeLayer (java.lang.ClassNotFoundException: null)
-[08Jul2021 18:50:46.746] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.layers.CapeLayer was not found origins.mixins.json:CapeFeatureRendererMixin
-[08Jul2021 18:51:05.006] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.1.0, for MC 1.16.5 with MCP 20210115.111550
-[08Jul2021 18:51:05.008] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.1.0 Initialized
-[08Jul2021 18:51:05.526] [modloading-worker-1/INFO] [io.github.apace100.origins.Origins/]: Origins 0.7.3.1 is initializing. Have fun!
-[08Jul2021 18:51:08.813] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [chickenchunks] Starting version check at http://chickenbones.net/Files/notification/version.php?query=forge&file=ChickenChunks&version=1.16.4
-[08Jul2021 18:51:10.548] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[09���2021 08:09:59.026] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.1.0, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
+[09���2021 08:09:59.036] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 1.8.0_251 by Oracle Corporation
+[09���2021 08:10:00.118] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[09���2021 08:10:00.177] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/C:/Users/Nadezhda/Desktop/Settings/HmcLab2/libraries/org/spongepowered/mixin/0.8.2/mixin-0.8.2.jar Service=ModLauncher Env=SERVER
+[09���2021 08:10:03.137] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[09���2021 08:10:03.626] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/layers/CapeLayer (java.lang.ClassNotFoundException: null)
+[09���2021 08:10:03.627] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.layers.CapeLayer was not found origins.mixins.json:CapeFeatureRendererMixin
+[09���2021 08:10:32.331] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.1.0, for MC 1.16.5 with MCP 20210115.111550
+[09���2021 08:10:32.333] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.1.0 Initialized
+[09���2021 08:10:32.610] [modloading-worker-2/INFO] [io.github.apace100.origins.Origins/]: Origins 0.7.3.1 is initializing. Have fun!
+[09���2021 08:10:35.083] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [chickenchunks] Starting version check at http://chickenbones.net/Files/notification/version.php?query=forge&file=ChickenChunks&version=1.16.4
+[09���2021 08:10:35.929] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 	at com.google.gson.Gson.fromJson(Gson.java:899) ~[server-1.16.5-20210115.111550-extra.jar:?]
 	at com.google.gson.Gson.fromJson(Gson.java:852) ~[server-1.16.5-20210115.111550-extra.jar:?]
 	at com.google.gson.Gson.fromJson(Gson.java:801) ~[server-1.16.5-20210115.111550-extra.jar:?]
 	at com.google.gson.Gson.fromJson(Gson.java:773) ~[server-1.16.5-20210115.111550-extra.jar:?]
 	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:195) ~[forge:?]
-	at java.lang.Iterable.forEach(Iterable.java:75) [?:1.8.0_292]
+	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_251]
 	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:139) [forge:?]
 Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:385) ~[server-1.16.5-20210115.111550-extra.jar:?]
@@ -24,161 +24,190 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[server-1.16.5-20210115.111550-extra.jar:?]
 	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
 	... 6 more
-[08Jul2021 18:51:10.552] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[08Jul2021 18:51:13.420] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 36.1.0 Target: null
-[08Jul2021 18:51:13.422] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [codechickenlib] Starting version check at https://version-check.covers1624.net/check/?mod=CodeChickenLib&mc=1.16.4
-[08Jul2021 18:51:14.823] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [codechickenlib] Found status: BETA Current: 3.5.1.408 Target: null
-[08Jul2021 18:51:15.301] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[08Jul2021 18:51:17.085] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[08Jul2021 18:51:17.090] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[08Jul2021 18:51:17.094] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[08Jul2021 18:51:17.100] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[08Jul2021 18:51:17.106] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[08Jul2021 18:51:17.123] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, bukkit, Caelus-forge.jar, forge-1.16.5-36.1.0-universal.jar, Origins-forge.jar, Architectury-forge.jar, Cloth-forge.jar, AppleSkin-forge.jar, Jei-forge.jar, ChickenChunks-forge.jar, CodeChickenLib-forge.jar
-[08Jul2021 18:51:21.104] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
-[08Jul2021 18:51:23.541] [Worker-Main-2/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 advancements
-[08Jul2021 18:51:23.615] [Worker-Main-2/INFO] [io.github.apace100.origins.Origins/]: Finished loading powers from data files. Registry contains 68 powers.
-[08Jul2021 18:51:23.635] [Worker-Main-2/INFO] [io.github.apace100.origins.Origins/]: Finished loading origins from data files. Registry contains 11 origins.
-[08Jul2021 18:51:23.638] [Worker-Main-2/INFO] [io.github.apace100.origins.Origins/]: Trying to read layer file: origins:origin
-[08Jul2021 18:51:23.652] [Worker-Main-2/INFO] [io.github.apace100.origins.Origins/]: Finished loading origin layers from data files. Read 1 layers.
-[08Jul2021 18:51:26.111] [main/WARN] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: This world was saved with mod forge version 36.1.32 and it is now at version 36.1.0, things may not work well
-[08Jul2021 18:51:28.464] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
-[08Jul2021 18:51:28.470] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[08Jul2021 18:51:28.470] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[08Jul2021 18:51:28.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[08Jul2021 18:51:28.724] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[08Jul2021 18:51:28.846] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
-[08Jul2021 18:51:29.277] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[08Jul2021 18:51:29.278] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[08Jul2021 18:51:29.278] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[08Jul2021 18:51:29.278] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[08Jul2021 18:51:29.429] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[08Jul2021 18:51:29.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[08Jul2021 18:51:33.668] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[08Jul2021 18:51:33.671] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[08Jul2021 18:51:33.672] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[08Jul2021 18:51:33.673] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[08Jul2021 18:51:33.675] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[08Jul2021 18:51:33.676] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[08Jul2021 18:51:33.677] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[08Jul2021 18:51:33.678] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[08Jul2021 18:51:33.984] [Worker-Main-3/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[08Jul2021 18:51:34.523] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[08Jul2021 18:51:35.214] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 44%
-[08Jul2021 18:51:36.751] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 6769 ms
-[08Jul2021 18:51:36.756] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (7.427s)! For help, type "help"
-[08Jul2021 18:51:36.758] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting remote control listener
-[08Jul2021 18:51:36.774] [Server thread/INFO] [net.minecraft.network.rcon.RConThread/]: Thread RCON Listener started
-[08Jul2021 18:51:36.774] [Server thread/INFO] [net.minecraft.network.rcon.MainThread/]: RCON running on 0.0.0.0:25575
-[08Jul2021 18:51:39.852] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3001ms or 60 ticks behind
-[08Jul2021 18:51:46.142] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: There are 0 of a max of 15 players online: 
-[08Jul2021 18:52:01.081] [Netty Epoll Server IO #1/INFO] [codechicken.lib.config.ConfigSyncManager/]: Skipping config sync, No mods have registered a syncable config.
-[08Jul2021 18:52:03.575] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@2e7242fb
-[08Jul2021 18:52:03.680] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Sya_blade[/109.174.113.79:41100] logged in with entity id 358 at (-24.88119323007538, 65.0, 229.7154528299089)
-[08Jul2021 18:52:03.784] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Sya_blade joined the game
-[08Jul2021 18:52:08.554] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 13703ms or 274 ticks behind
-[08Jul2021 18:52:36.656] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 13104ms or 262 ticks behind
-[08Jul2021 18:52:55.580] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3928ms or 78 ticks behind
-[08Jul2021 18:53:18.980] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2028ms or 40 ticks behind
-[08Jul2021 18:53:34.425] [Netty Epoll Server IO #1/INFO] [codechicken.lib.config.ConfigSyncManager/]: Skipping config sync, No mods have registered a syncable config.
-[08Jul2021 18:53:36.174] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@66762c81
-[08Jul2021 18:53:36.209] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Aprillf[/91.105.156.157:27755] logged in with entity id 546 at (95.88502524168608, 87.0, 154.98995275556413)
-[08Jul2021 18:53:36.224] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Aprillf joined the game
-[08Jul2021 18:53:36.767] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
-[08Jul2021 18:53:57.644] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5893ms or 117 ticks behind
-[08Jul2021 18:54:03.182] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> апрель апрель
-[08Jul2021 18:54:04.835] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> апрель
-[08Jul2021 18:54:07.059] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> апрель
-[08Jul2021 18:54:08.627] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> апрель
-[08Jul2021 18:54:10.375] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> апрель
-[08Jul2021 18:54:14.713] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2112ms or 42 ticks behind
-[08Jul2021 18:54:33.984] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4282ms or 85 ticks behind
-[08Jul2021 18:54:38.016] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Aprillf> чтоо
-[08Jul2021 18:54:52.859] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3908ms or 78 ticks behind
-[08Jul2021 18:55:13.472] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5621ms or 112 ticks behind
-[08Jul2021 18:56:08.091] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> ок чё за хрень
-[08Jul2021 18:56:32.827] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> у меня подключен микро
-[08Jul2021 18:56:40.275] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> всё нормально НО ОН НЕ РАБОТАЕТ
-[08Jul2021 18:56:42.175] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> почеемууу
-[08Jul2021 18:56:49.690] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> нееетт
-[08Jul2021 18:56:52.184] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> он в норме
-[08Jul2021 18:57:31.575] [Netty Epoll Server IO #1/INFO] [codechicken.lib.config.ConfigSyncManager/]: Skipping config sync, No mods have registered a syncable config.
-[08Jul2021 18:57:32.985] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@2cd8750
-[08Jul2021 18:57:33.006] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: dremkin[/109.161.108.187:51494] logged in with entity id 898 at (19.18466060525246, 65.25521960176278, 206.44178351433283)
-[08Jul2021 18:57:33.016] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: dremkin joined the game
-[08Jul2021 18:57:34.197] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> мем в том
-[08Jul2021 18:57:39.226] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3025ms or 60 ticks behind
-[08Jul2021 18:57:39.300] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> что дискорд видит микро
-[08Jul2021 18:57:39.323] [Netty Epoll Server IO #0/INFO] [codechicken.lib.config.ConfigSyncManager/]: Skipping config sync, No mods have registered a syncable config.
-[08Jul2021 18:57:40.945] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@6131afa8
-[08Jul2021 18:57:40.971] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: sotifulincide[/188.227.8.238:2866] logged in with entity id 926 at (143.12761267570855, 52.0, 223.17021278622724)
-[08Jul2021 18:57:40.983] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: sotifulincide joined the game
-[08Jul2021 18:57:42.982] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> при проверки он его
-[08Jul2021 18:57:46.685] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> неее
-[08Jul2021 18:57:57.087] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> я ессли
-[08Jul2021 18:58:04.884] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> выключу пк то сегодня больше не включу
-[08Jul2021 18:58:12.764] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> у меня работает микро, но вы меня не слышите
-[08Jul2021 18:58:15.550] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> я не знаю почему
-[08Jul2021 18:58:20.386] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> короче апрель ПЖ ДАЙ ДЁРНН
-[08Jul2021 18:58:31.880] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> на крышу
-[08Jul2021 18:58:59.798] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> на крышууу!!
-[08Jul2021 18:59:07.923] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> окееей
-[08Jul2021 19:00:14.734] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> бля реал проверьте мб меня мутанул кто то
-[08Jul2021 19:00:24.477] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> микро норм!!!
-[08Jul2021 19:00:32.375] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> на проверке микро в дискорде он его видит
-[08Jul2021 19:00:41.581] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> вкуда
-[08Jul2021 19:00:53.380] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> я не ебу как перезгружать дис честно
-[08Jul2021 19:01:03.269] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> ок попробую через диспечер
-[08Jul2021 19:01:42.433] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> я не могу на прямую закрыть дис
-[08Jul2021 19:01:53.483] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> он простосука
-[08Jul2021 19:02:14.879] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> нет там этого нет))
-[08Jul2021 19:02:21.644] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> я кстати дис закрыла но я всё ещё вас слышу
-[08Jul2021 19:02:32.012] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> ))))))))
-[08Jul2021 19:04:07.629] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> пон обойдусь без микро сегодня
-[08Jul2021 19:05:58.630] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Air'/2844, l='ServerLevel[world]', x=-48.20, y=43.00, z=222.18]
-[08Jul2021 19:06:39.486] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> апрель иди сюда я тебя отшлёпаю
-[08Jul2021 19:06:42.780] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> ой кирку верну
-[08Jul2021 19:07:03.075] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Air'/3006, l='ServerLevel[world]', x=-48.95, y=43.00, z=221.62]
-[08Jul2021 19:07:13.830] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> где я
-[08Jul2021 19:08:03.834] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> апрель блять иди сюда за киркой
-[08Jul2021 19:08:17.622] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> или я опять твою конору в паутине изгажу
-[08Jul2021 19:08:38.581] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Aprillf experienced kinetic energy
-[08Jul2021 19:09:35.746] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> апрель пж не дрочи на то как мои родаки сексом трахаются u_u
-[08Jul2021 19:10:05.799] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> какие настроящие родаки я сирота
-[08Jul2021 19:10:46.332] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Air'/3701, l='ServerLevel[world]', x=-48.99, y=43.00, z=222.83]
-[08Jul2021 19:11:03.239] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> апрель куда ты там чё суёшь
-[08Jul2021 19:12:01.273] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> я посмотрела на секси зачаровальню дрёмы и хочу себе тоже зачеровальню теперь
-[08Jul2021 19:12:14.835] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: sotifulincide moved wrongly!
-[08Jul2021 19:12:16.036] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: sotifulincide was slain by dremkin
-[08Jul2021 19:12:21.085] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> секси зачаровальня
-[08Jul2021 19:12:28.588] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> дрём
-[08Jul2021 19:12:34.247] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> у тебя возле дома там короче в горе дыра
-[08Jul2021 19:12:37.336] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> чё там будет?
-[08Jul2021 19:12:40.981] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> щас выллезу
-[08Jul2021 19:13:00.378] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> если тебе эта дыра возле дома не нужна дрём, я хочу там кое чё застроить
-[08Jul2021 19:13:03.233] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> апрель я застроила
-[08Jul2021 19:13:08.374] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> там верстачная беседа
-[08Jul2021 19:13:12.530] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> правда можно дрём?
-[08Jul2021 19:13:16.847] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> апрель иди к моей хатке
-[08Jul2021 19:13:21.591] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> обещаю в этот раз без плети
-[08Jul2021 19:13:28.991] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> ура постройки
-[08Jul2021 19:13:50.940] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> АПРЕЛЬ ТЫ ГЕЙ
-[08Jul2021 19:13:55.734] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> ДВА РАЗА НАПИСАЛА
-[08Jul2021 19:13:57.273] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> к дому
-[08Jul2021 19:13:58.629] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> моему
-[08Jul2021 19:14:00.232] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> иди
-[08Jul2021 19:14:09.201] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> явижу
-[08Jul2021 19:14:18.533] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> споки
-[08Jul2021 19:14:34.795] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> апрель этого и добивается
-[08Jul2021 19:14:49.941] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> картошки в жопу
-[08Jul2021 19:15:01.385] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> апрель мы все уже поняли что ты хочешь влада в своей жопе
-[08Jul2021 19:15:40.886] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> апрель хочет быть оТшЛёПаНым
-[08Jul2021 19:16:18.474] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Aprillf experienced kinetic energy
-[08Jul2021 19:16:19.036] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> апреля там насилуют что ли
-[08Jul2021 19:17:41.573] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2372ms or 47 ticks behind
-[08Jul2021 19:17:54.439] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> список великих планов
-[08Jul2021 19:18:05.394] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> 1. забить дыру возле дома дрёмы
-[08Jul2021 19:18:14.486] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> 2. закончить ад базу
-[08Jul2021 19:18:27.142] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> 3. ущепнуть апреля за зад
-[08Jul2021 19:19:01.082] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> ДА ВЫ ВИДЕЛИ КАКОЙ У НЕГО ОРЕХ
-[08Jul2021 19:19:14.196] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <Sya_blade> (орех это задница)
+[09���2021 08:10:35.963] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[09���2021 08:10:38.598] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 36.1.0 Target: null
+[09���2021 08:10:38.611] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [codechickenlib] Starting version check at https://version-check.covers1624.net/check/?mod=CodeChickenLib&mc=1.16.4
+[09���2021 08:10:39.597] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09���2021 08:10:39.861] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [codechickenlib] Found status: BETA Current: 3.5.1.408 Target: null
+[09���2021 08:10:41.902] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[09���2021 08:10:41.911] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[09���2021 08:10:41.918] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[09���2021 08:10:41.929] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[09���2021 08:10:41.937] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[09���2021 08:10:42.830] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, bukkit, Caelus-forge.jar, forge-1.16.5-36.1.0-universal.jar, Origins-forge.jar, Architectury-forge.jar, Cloth-forge.jar, AppleSkin-forge.jar, Jei-forge.jar, ChickenChunks-forge.jar, CodeChickenLib-forge.jar
+[09���2021 08:10:45.021] [Worker-Main-4/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
+[09���2021 08:10:53.699] [Worker-Main-4/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 advancements
+[09���2021 08:10:53.779] [Worker-Main-4/INFO] [io.github.apace100.origins.Origins/]: Finished loading powers from data files. Registry contains 68 powers.
+[09���2021 08:10:53.789] [Worker-Main-4/INFO] [io.github.apace100.origins.Origins/]: Finished loading origins from data files. Registry contains 11 origins.
+[09���2021 08:10:53.791] [Worker-Main-4/INFO] [io.github.apace100.origins.Origins/]: Trying to read layer file: origins:origin
+[09���2021 08:10:53.802] [Worker-Main-4/INFO] [io.github.apace100.origins.Origins/]: Finished loading origin layers from data files. Read 1 layers.
+[09���2021 08:11:02.392] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[09���2021 08:11:02.394] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To start the server with more ram, launch it as "java -Xmx1024M -Xms1024M -jar minecraft_server.jar"
+[09���2021 08:11:02.395] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[09���2021 08:11:02.420] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[09���2021 08:11:02.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[09���2021 08:11:03.071] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[09���2021 08:11:03.121] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
+[09���2021 08:11:06.204] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09���2021 08:11:06.210] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[09���2021 08:11:06.211] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[09���2021 08:11:06.212] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[09���2021 08:11:07.238] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[09���2021 08:11:07.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[09���2021 08:11:24.856] [Netty Server IO #2/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[09���2021 08:11:24.855] [Netty Server IO #1/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[09���2021 08:12:00.141] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.148] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.155] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.158] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.839] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.842] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.846] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.849] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.850] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.853] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.858] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.860] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.862] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.864] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.866] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.871] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.873] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.874] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.875] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.877] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.880] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.882] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.883] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.884] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.885] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.888] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.888] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.893] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.894] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.895] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.897] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.898] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.899] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.900] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.905] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.906] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.907] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.908] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.910] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.911] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.912] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.917] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.919] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.921] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.922] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.923] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.924] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.926] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.931] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.932] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.933] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.935] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.937] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.942] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.943] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.946] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.947] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.950] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.953] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.955] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.957] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.958] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.962] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.963] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.964] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.966] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.966] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.967] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.968] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.968] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.969] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.974] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.975] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.975] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.976] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.977] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.977] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.978] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.978] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.979] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.979] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.980] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.980] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.981] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.981] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.986] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.987] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.989] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.990] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.991] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.992] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.994] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.998] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:00.999] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:01.002] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:01.009] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:01.013] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:01.016] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:01.024] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:01.026] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:01.028] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:01.029] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:01.032] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:01.034] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:01.035] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:01.037] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:01.039] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:01.738] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:02.556] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:02.556] [Worker-Main-9/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:13.425] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:13.426] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:13.429] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:13.434] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:13.437] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:13.439] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:13.447] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:13.448] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:13.450] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:13.453] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:13.455] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:13.456] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:13.457] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:13.458] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:13.464] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:13.465] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:13.467] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:13.468] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:13.469] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:13.475] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:13.477] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:13.479] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[09���2021 08:12:16.953] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[09���2021 08:12:16.955] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[09���2021 08:12:16.960] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[09���2021 08:12:16.962] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[09���2021 08:12:16.964] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[09���2021 08:12:16.965] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[09���2021 08:12:16.968] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[09���2021 08:12:17.800] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[09���2021 08:12:32.672] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 84763 ms
+[09���2021 08:12:32.730] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (85.560s)! For help, type "help"
+[09���2021 08:12:32.731] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting remote control listener
+[09���2021 08:12:32.757] [Server thread/INFO] [net.minecraft.network.rcon.RConThread/]: Thread RCON Listener started
+[09���2021 08:12:32.758] [Server thread/INFO] [net.minecraft.network.rcon.MainThread/]: RCON running on 0.0.0.0:25575
+[09���2021 08:13:10.223] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 36686ms or 733 ticks behind
+[09���2021 08:13:14.241] [Netty Server IO #5/INFO] [codechicken.lib.config.ConfigSyncManager/]: Skipping config sync, No mods have registered a syncable config.
+[09���2021 08:13:26.134] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@de940b[id=<null>,name=iLoLpIcK,properties={},legacy=false] (/127.0.0.1:61815) lost connection: Disconnected
+[09���2021 08:13:28.376] [Netty Server IO #6/INFO] [codechicken.lib.config.ConfigSyncManager/]: Skipping config sync, No mods have registered a syncable config.
+[09���2021 08:13:58.273] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@1e3957e
+[09���2021 08:14:00.670] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: iLoLpIcK[/127.0.0.1:59425] logged in with entity id 424 at (112.30722651960916, 60.42366040384388, 252.77822116980053)
+[09���2021 08:14:02.335] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: iLoLpIcK joined the game
+[09���2021 08:14:12.574] [Server Watchdog/FATAL] [net.minecraft.server.dedicated.ServerHangWatchdog/]: A single server tick took 60.89 seconds (should be max 0.05)
+[09���2021 08:14:12.623] [Server Watchdog/FATAL] [net.minecraft.server.dedicated.ServerHangWatchdog/]: Considering it to be crashed, server will forcibly shutdown.
+[09���2021 08:14:16.314] [Server Watchdog/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 434a7e81-769d-493e-b91d-80d3c8a9e573
